@@ -96,7 +96,8 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
         PEM_write_RSAPrivateKey (stdout, key, NULL, NULL, 0, 0, NULL);
     }
     ```
-
+    
+    <small>[Código fuente completo](main.c)</small>
 
 
 5. Compilamos el algoritmo anterior para luego ejecutarlo y obtener la llave privada que guardaremos en el archivo [private.key](private.key):
