@@ -18,15 +18,13 @@ wzabx mpyqw nbuom szjnl scplz qcmdd mntbe cgrzm ihczj
 
 vtkwy axsig alomk ghfkm xrcgh cpbyt wkybh atrqi dfsv
 
-## Solución
+## Solución
 
 los`pa ramet ros`pa ra`res olver` son:
 
-    R1 = VIII / Pos = 1 / Ring = 1
-
-    R2 = I / Pos = 17 / Ring = 2
-
-    R3 = III / Pos = 12 / Ring = 3
+* R1 = VIII / Pos = 1 / Ring = 1
+* R2 = I / Pos = 17 / Ring = 2
+* R3 = III / Pos = 12 / Ring = 3
 
 Usamos la máquina Enigma de https://cryptii.com:
 
