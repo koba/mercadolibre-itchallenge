@@ -39,4 +39,4 @@ for (var i = 0; i <= 255; i++) {
 
 ### Repuesta
 
-El [archivo desencriptado](137.pdf) contenia la respuesta al acertijo: `eXtraORdinario!`.
+El [archivo desencriptado](137.pdf) (Usando 137 como *key*) contiene la respuesta al acertijo: `eXtraORdinario!`.
