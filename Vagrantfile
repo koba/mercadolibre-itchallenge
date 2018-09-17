@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
     sudo apt-get update
     sudo apt-get install -y curl software-properties-common
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-    sudo apt-get install -y build-essential g++ nodejs python-tk
+    sudo apt-get install -y build-essential g++ libssl-dev nodejs python-tk
     # bash_profile customization
     echo "cd /vagrant" >> ~/.bash_profile 
   SHELL
