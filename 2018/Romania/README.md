@@ -106,17 +106,6 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
     gcc main.c -lssl -lcrypto -o main.out -w && ./main.out 57248512388615138300979959427360676128469 1094782941871623486260250734009229761
     ```
 
-    Output:
-
-    ```
-    -----BEGIN RSA PRIVATE KEY-----
-    MIGtAgEAAiEAipCewtaz+iNXcqCDvx5t06G/q4AeqDFTBlbEaRZkO5UCAwEAAQIh
-    AIEInZ8o2t6zrIpk6Wq/RcAjReugmjRKjGOzldg1ml8BAhIAqDz+bZcHJ6DeTiJ2
-    dxXQJtUCEADS2PdmlfmnE4HA7YdfocECEgCGQV5cgBhylFqzCad18s9QHQIPDM34
-    WFaLTsY0fw7txbUBAhIAjvWDBiZnXbNcUvHSj6N/6Kg=
-    -----END RSA PRIVATE KEY-----
-    ```
-
 6. Por último ejecutamos el siguiente comando para desencriptar el archivo de datos original y obtener la respuesta al desafío:
 
     ```bash
