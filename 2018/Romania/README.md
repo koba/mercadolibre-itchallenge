@@ -33,7 +33,7 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
 
 1. Nos dan `q = 1094782941871623486260250734009229761`.
 
-2. De la [*public key*](./id_rsa.pub) se puede obtener `n`. Para eso analizamos la llave pública con la herramienta https://8gwifi.org/PemParserFunctions.jsp que nos brindó la siguiente información:
+2. De la [*public key*](./id_rsa.pub) se puede obtener `n`. Analizando la llave pública en https://8gwifi.org/PemParserFunctions.jsp obtuvimos la siguiente información:
 
     ```
     Algo RSA
