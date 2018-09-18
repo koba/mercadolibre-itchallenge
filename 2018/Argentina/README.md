@@ -1,4 +1,4 @@
-# Argentina
+# 🇦🇷 Argentina
 
 ¡Científicos del centro para el Tratamiento y Control de la Población, hicieron un impresionante descubrimiento! Las alpacas, en lugar de portar un código genético compuesto de bases adenina (A), citosina (C), guanina (G) y timina (T), poseen bases completamente distintas: su ADN está compuesto de bases (A),(C),(L) y (P) donde (L) es lanina y (P) es preciosina. Más aún, los investigadores descubrieron que el código genético de las alpacas es extremadamente estructurado. Este se puede codificar como una secuencia sobre el alfabeto {A,C,L,P} aplicando algunas reglas. 
 

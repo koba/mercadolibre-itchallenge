@@ -1,4 +1,4 @@
-# Australia
+# 🇦🇺 Australia
 
 Hemos definido nuestro propio lenguaje de marcado, HRML. En HRML, cada elemento consta de una etiqueta de inicio y cierre, y hay atributos asociados con cada etiqueta. Solo las etiquetas de inicio pueden tener atributos. Podemos llamar a un atributo haciendo referencia a la etiqueta, seguida del símbolo '~' y el nombre del atributo. Las etiquetas también pueden estar anidadas.
 
