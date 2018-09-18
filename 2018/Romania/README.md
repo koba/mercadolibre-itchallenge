@@ -28,7 +28,7 @@ def generate_q():
 
 Has tenido acceso a uno de los mensajes encriptados así como también a un PEM que contiene la clave pública de encriptación. ¿Sos capaz de descubrir el contenido del mensaje original?
 
-[https://s3.amazonaws.com/it.challenge.18/problem20.zip](problem20.zip)
+[https://s3.amazonaws.com/it.challenge.18/problem20.zip](/2018/_s3/Romania/problem20.zip)
 
 ## Solución
 
@@ -36,7 +36,7 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
 
 1. Nos dan `q = 1094782941871623486260250734009229761`.
 
-2. De la [*public key*](./id_rsa.pub) se puede obtener `n`. Analizando la llave pública en https://8gwifi.org/PemParserFunctions.jsp obtuvimos la siguiente información:
+2. De la [*public key*](/2018/_s3/Romania/problem20/id_rsa.pub) se puede obtener `n`. Analizando la llave pública en https://8gwifi.org/PemParserFunctions.jsp obtuvimos la siguiente información:
 
     ```
     Algo RSA
