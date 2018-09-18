@@ -85,7 +85,7 @@ Not Found!
 HelloWorld
 ```
 
-[https://www.dropbox.com/s/tdpttblm5ez64vq/HRML%20Parser.zip?dl=0](/2018/_docs/Malasya/HRML Parser.zip)
+[https://www.dropbox.com/s/tdpttblm5ez64vq/HRML%20Parser.zip?dl=0](/2018/_docs/Malasya/HRML%20Parser.zip)
 
 ## Solución
 
@@ -135,6 +135,8 @@ for (var z = 1; z <= 15; z++) {
 
 console.log(sha.sha256(output.join('\n')+'\n').toUpperCase());
 ```
+
+<small>[Código fuente completo](index.js)</small>
 
 Output:
 
