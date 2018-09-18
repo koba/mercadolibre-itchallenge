@@ -1,3 +1,6 @@
+# Archivos
 *.out
-
 .vagrant
+
+# Carpetas
+node_modules
