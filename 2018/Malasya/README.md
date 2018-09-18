@@ -136,6 +136,8 @@ for (var z = 1; z <= 15; z++) {
 console.log(sha.sha256(output.join('\n')+'\n').toUpperCase());
 ```
 
+<small>[Código fuente completo](index.js)</small>
+
 Output:
 
 ```
