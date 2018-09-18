@@ -37,6 +37,10 @@ for (var i = 0; i <= 255; i++) {
 
 <small>[Código fuente completo](main.cpp)</small>
 
-### Repuesta
+## Repuesta
 
-El [archivo desencriptado](desencriptado.pdf) contiene la respuesta al acertijo: `eXtraORdinario!`.
+En el [archivo desencriptado](desencriptado.pdf) encontramos la respuesta al acertijo: 
+
+```
+eXtraORdinario!
+```

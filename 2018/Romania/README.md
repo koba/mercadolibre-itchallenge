@@ -32,9 +32,12 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
 
 ## Solución
 
-0. https://simple.wikipedia.org/wiki/RSA_algorithm
+0. Lecturas sobre el algoritmo RSA:
 
-1. Nos dan `q = 1094782941871623486260250734009229761`.
+    * https://simple.wikipedia.org/wiki/RSA_algorithm
+    * http://www.loyalty.org/~schoen/rsa
+
+1. Tenemos `q = 1094782941871623486260250734009229761`.
 
 2. De la [*public key*](/2018/_docs/Romania/problem20/id_rsa.pub) se puede obtener `n`. Analizando la llave pública en https://8gwifi.org/PemParserFunctions.jsp obtuvimos la siguiente información:
 
@@ -53,7 +56,7 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
 
     `p = n / q = 57248512388615138300979959427360676128469`
 
-4. Teniendo `p` y `q` podemos reconstruir el `keypair`. Sólo nos falta el algoritmo #/ ([Que por suerte encontramos acá](http://www.loyalty.org/~schoen/rsa/private-from-pq.c)):
+4. Teniendo `p` y `q` podemos reconstruir el *keypair*. Sólo nos falta el algoritmo #/ ([Que por suerte encontramos acá](http://www.loyalty.org/~schoen/rsa/private-from-pq.c)):
 
     ```c
     int main (int argc, char *argv[]) {
@@ -103,7 +106,7 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
     <small>[Código fuente completo](main.c)</small>
 
 
-5. Compilamos el algoritmo anterior para luego ejecutarlo y obtener la llave privada que guardaremos en el archivo [private.key](private.key):
+5. Compilamos el algoritmo anterior para luego ejecutarlo y obtener la llave privada que guardamos en el archivo [private.key](private.key):
 
     ```bash
     gcc main.c -lssl -lcrypto -o main.out -w && ./main.out 57248512388615138300979959427360676128469 1094782941871623486260250734009229761
@@ -120,6 +123,3 @@ Has tenido acceso a uno de los mensajes encriptados así como también a un PEM 
     3lr5a3star0t0
     ```
 
-## Links y Referencias Útiles
-
-* http://www.loyalty.org/~schoen/rsa

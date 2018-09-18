@@ -21,53 +21,53 @@ La respuesta es un único entero conteniendo el tipo de hermosura de la alpaca (
 
 ## Solución
 
-0. La respuesta en función de `N` sigue la [secuencia de Jacobsthal](https://oeis.org/A001045).
+La respuesta en función de `N` sigue la [secuencia de Jacobsthal](https://oeis.org/A001045).
 
-1. Para hallar el número `N` de dicha secuencia % `M`, implementamos este algoritmo (Basados en este trabajo https://medium.com/competitive/huge-fibonacci-number-modulo-m-6b4926a5c836):
+Para hallar el número `N` de dicha secuencia % `M`, implementamos este algoritmo (Basados en este trabajo https://medium.com/competitive/huge-fibonacci-number-modulo-m-6b4926a5c836):
 
-    ```cpp
-    typedef long long ll;
+```cpp
+typedef long long ll;
 
-    ll get_pisano_period(ll m) {
-        ll a = 0, b = 1, c = a * 2 + b;
-        for (int i = 0; i < m * m; i++) {
-            c = (a * 2 + b) % m;
-            a = b;
-            b = c;
-            if (a == 0 && b == 1) return i + 1;
-        }
+ll get_pisano_period(ll m) {
+    ll a = 0, b = 1, c = a * 2 + b;
+    for (int i = 0; i < m * m; i++) {
+        c = (a * 2 + b) % m;
+        a = b;
+        b = c;
+        if (a == 0 && b == 1) return i + 1;
+    }
+}
+
+ll get_jacobsthal_huge(ll n, ll m) {
+    ll remainder = n % get_pisano_period(m);
+
+    ll first = 0;
+    ll second = 1;
+
+    ll res = remainder;
+
+    for (int i = 1; i < remainder; i++) {
+        res = (first * 2 + second) % m;
+        first = second;
+        second = res;
     }
 
-    ll get_jacobsthal_huge(ll n, ll m) {
-        ll remainder = n % get_pisano_period(m);
+    return res % m;
+}
 
-        ll first = 0;
-        ll second = 1;
+int main() {
+    ll n = 234612846789230;
+    ll m = 123456789;
 
-        ll res = remainder;
+    cout << get_jacobsthal_huge(n, m) << endl;
+}
+```
 
-        for (int i = 1; i < remainder; i++) {
-            res = (first * 2 + second) % m;
-            first = second;
-            second = res;
-        }
+<small>[Código fuente completo](main.cpp)</small>
 
-        return res % m;
-    }
+## 👨‍💻👩‍💻 Output
 
-    int main() {
-        ll n = 234612846789230;
-        ll m = 123456789;
-
-        cout << get_jacobsthal_huge(n, m) << endl;
-    }
-    ```
-
-    <small>[Código fuente completo](main.cpp)</small>
-
-2. Que finalmente compilamos y ejecutamos:
-
-    ```bash
-    $ g++ main.cpp -o main.out && ./main.out
-    118267624
-    ```
+```bash
+$ g++ main.cpp -o main.out && ./main.out
+118267624
+```

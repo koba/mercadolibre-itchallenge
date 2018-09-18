@@ -16,15 +16,17 @@ vtkwy axsig alomk ghfkm xrcgh cpbyt wkybh atrqi dfsv
 
 ## Solución
 
-los`pa ramet ros`pa ra`res olver` son:
+Usamos la máquina Enigma de https://cryptii.com:
+
+![](enigma.png)
+
+con los parámetros que ofrece la letra:
 
 * R1 = VIII / Pos = 1 / Ring = 1
 * R2 = I / Pos = 17 / Ring = 2
 * R3 = III / Pos = 12 / Ring = 3
 
-Usamos la máquina Enigma de https://cryptii.com:
+## Respuesta
 
-![](enigma.png)
-
-Y ontenemos la respuesta al acertijo: `Turing`
+Turing
 
