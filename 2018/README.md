@@ -2,9 +2,10 @@
 
 ![](_docs/dashboard.png)
 
-1. [Argentina (300 pts)](Argentina)
-1. [Egypt (150 pts)](Egypt)
-1. [Guyana (250 pts)](Guyana)
-1. [Romania (350 pts)](Romania)
+1. [Argentina - ALPACA (300 pts)](Argentina)
+1. [Egypt - ENIGMA (150 pts)](Egypt)
+1. [Guyana - Ximena, Oscar y Raúl (250 pts)](Guyana)
+1. [Malasya - HRML Parser (150 pts)](Malasya)
+1. [Romania - BROKEN RSA (350 pts)](Romania)
 
 
