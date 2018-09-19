@@ -9,11 +9,17 @@ Cadena input: [https://www.dropbox.com/s/qdfr7nd22cq8dil/Copia%20de%20input007.t
 La respuesta a ingresar en el sistema es la respuesta para cada caso de test en el orden en que aparece en el archivo, separando por un espacio.
 
 Sample Input 0
+
+```
 1
 ababaa 
+```
 
 Sample Output 0
+
+```
 11
+```
 
 ## Solución
 
