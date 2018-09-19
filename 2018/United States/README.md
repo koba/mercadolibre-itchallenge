@@ -1,4 +1,4 @@
-# United States
+# 🇺🇸 United States
 
 Dados dos nombres de usuario, el grado de similitud se define como la longitud del prefijo más largo común a ambas cadenas. En este desafío, recibirás una cadena. Debes quebrar la cadena para crear sufijos cada vez más cortos y luego determinar la similitud del sufijo con la cadena original. Haz esto para cada longitud de sufijo desde la longitud de la cadena hasta 0 y acumula los resultados. Por ejemplo, considera la cadena 'ababa'
 
