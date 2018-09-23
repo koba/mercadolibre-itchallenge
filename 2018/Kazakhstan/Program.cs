@@ -11,7 +11,7 @@ namespace MercadoLibre.Kasakhstan
     {
         static void Main(string[] args)
         {
-            string line = File.ReadAllText(@"C:\Users\Tonga\Downloads\roulette.txt");
+            string line = File.ReadAllText(@"../_docs/Kazakhstan/roulette.txt");
 
             int from = 299053 + 500000;
             int to = from + 2976;
@@ -20,8 +20,7 @@ namespace MercadoLibre.Kasakhstan
             {
                 result += line[i];
             }
-            Console.Write(result);
-            Console.Read();
+            Console.WriteLine(result);
         }
 
         private static char ObtenerMenor(string line)

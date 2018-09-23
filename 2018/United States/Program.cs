@@ -10,7 +10,7 @@ namespace mercadolibre.USA
     {
         static void Main(string[] args)
         {
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Tonga\Documents\Visual Studio 2015\Projects\mercadolibre.USA\inputUsa.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"../_docs/United States/Username Disparity.txt");
             int totalLines = int.Parse(lines[0]);
             
 
@@ -43,9 +43,6 @@ namespace mercadolibre.USA
                 }
                 Console.WriteLine(result);
             }
-
-            Console.WriteLine("final");
-            Console.Read();
         }
     }
 }

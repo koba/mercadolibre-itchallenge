@@ -6,6 +6,20 @@ using System.Threading.Tasks;
 
 namespace MercadoLibre.Rusia
 {
+    class Enrutador
+    {
+        public int Numero;
+        public int Radio;
+        public int Contenidos;
+
+        public Enrutador()
+        {
+            Numero = -1;
+            Radio = 0;
+            Contenidos = 0;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -32,10 +46,6 @@ namespace MercadoLibre.Rusia
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (i == 6 && j == 5)
-                    {
-                        int a = 1;
-                    }
                     if (i != j)
                     {
                         int left = enrutadores[j].Numero - enrutadores[j].Radio;
@@ -50,26 +60,14 @@ namespace MercadoLibre.Rusia
                     }
                 }
             }
+
             for (int i = 1; i <= q; i++)
             {
                 int consulta = int.Parse(separados[i + 21]);
                 Console.Write(enrutadores[consulta-1].Contenidos);
             }
-            Console.Read();
-        }
-    }
 
-    public class Enrutador
-    {
-        public int Numero;
-        public int Radio;
-        public int Contenidos;
-
-        public Enrutador()
-        {
-            Numero = -1;
-            Radio = 0;
-            Contenidos = 0;
+            Console.WriteLine();
         }
     }
 }
