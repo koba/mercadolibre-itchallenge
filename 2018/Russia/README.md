@@ -44,10 +44,6 @@ static void Main(string[] args)
     {
         for (int j = 0; j < n; j++)
         {
-            if (i == 6 && j == 5)
-            {
-                int a = 1;
-            }
             if (i != j)
             {
                 int left = enrutadores[j].Numero - enrutadores[j].Radio;
@@ -62,13 +58,20 @@ static void Main(string[] args)
             }
         }
     }
+
     for (int i = 1; i <= q; i++)
     {
         int consulta = int.Parse(separados[i + 21]);
         Console.Write(enrutadores[consulta-1].Contenidos);
     }
-    Console.Read();
 }
 ```
 
 <small>[Código fuente completo](Program.cs)</small>
+
+## 👨‍💻👩‍💻 Output
+
+```bash
+$ csc Program.cs && mono Program.exe
+4400444444
+```
