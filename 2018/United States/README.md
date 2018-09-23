@@ -26,7 +26,7 @@ Sample Output 0
 ```c#
 static void Main(string[] args)
 {
-    string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Tonga\Documents\Visual Studio 2015\Projects\mercadolibre.USA\inputUsa.txt");
+    string[] lines = System.IO.File.ReadAllLines(@"../_docs/United States/Username Disparity.txt");
     int totalLines = int.Parse(lines[0]);
     
 
@@ -61,8 +61,24 @@ static void Main(string[] args)
     }
 
     Console.WriteLine("final");
-    Console.Read();
 }
 ```
 
 <small>[Código fuente completo](Program.cs)</small>
+
+## 👨‍💻👩‍💻 Output
+
+```bash
+$ csc Program.cs && mono Program.exe
+
+110
+51
+119
+71
+109
+21
+83
+99
+2
+75
+```
