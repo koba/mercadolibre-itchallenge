@@ -43,8 +43,6 @@ namespace mercadolibre.USA
                 }
                 Console.WriteLine(result);
             }
-
-            Console.WriteLine("final");
         }
     }
 }

@@ -59,8 +59,6 @@ static void Main(string[] args)
         }
         Console.WriteLine(result);
     }
-
-    Console.WriteLine("final");
 }
 ```
 
