@@ -32,4 +32,4 @@ Sample Input 0 pcmbz
 
 Sample Output 0 1
 
-## Solución
+## Solución 
