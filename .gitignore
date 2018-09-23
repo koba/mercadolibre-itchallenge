@@ -1,4 +1,5 @@
 # Archivos
+*.exe
 *.out
 .vagrant
 
