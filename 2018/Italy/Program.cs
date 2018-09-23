@@ -10,7 +10,7 @@ namespace MercadoLibre.Italy
     {
         static void Main(string[] args)
         {
-            string line = System.IO.File.ReadAllText(@"C:\Users\Tonga\Documents\Visual Studio 2015\Projects\mercadolibre.USA\inputItaly.txt");
+            string line = System.IO.File.ReadAllText(@"../_docs/Italy/Copia de input013.txt");
 
             int p = 0;
             int c = 0;
@@ -34,7 +34,6 @@ namespace MercadoLibre.Italy
             }
 
             Console.WriteLine(Math.Min(Math.Min(Math.Min(Math.Min(p, c), m), b), z));
-            Console.Read();
         }
     }
 }
