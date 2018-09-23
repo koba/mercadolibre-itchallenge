@@ -64,6 +64,8 @@ static void Main(string[] args)
         int consulta = int.Parse(separados[i + 21]);
         Console.Write(enrutadores[consulta-1].Contenidos);
     }
+
+    Console.WriteLine();
 }
 ```
 
