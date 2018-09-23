@@ -8,7 +8,7 @@ Input (entrada):
 
 La primera línea contiene el número de casos de prueba T. Siguen los casos de prueba T. Cada caso contiene dos enteros, N y M. 
 
-[https://www.dropbox.com/s/h2brnoa5bg57zve/input%20Lego.txt?dl=0](/2018/_docs/Angola.input%20Lego.txt)
+[https://www.dropbox.com/s/h2brnoa5bg57zve/input%20Lego.txt?dl=0](/2018/_docs/Angola/input%20Lego.txt)
  
 Output (salida):
 
