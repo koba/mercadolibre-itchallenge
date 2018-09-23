@@ -1,67 +1,41 @@
 # 🇫🇷 France
 
-Arturo es un escritor aficionado de novelas de misterios. Hace pocos días ha terminado su último libro y, hasta ahora, su mejor obra, titulada "El Misterio de la Mano". No solo eso, Arturo acaba de firmar un contrato con una editorial para que lo ayude a comercializar su libro y lograr que el mundo conozca su trabajo.
-Una de las decisiones más importantes que Arturo debe tomar es el tamaño en el que su libro será impreso. Para ello, le ayudaría mucho saber la cantidad de páginas que su libro tendría en cada formato.
+Julia tiene cadena de caracteres, s, compuesta por las letras a, b, c y d. Se dice que la cadena de caracteres está equilibrada si se cumplen las dos condiciones siguientes:
+ 
+El número sumado de a's y c's es par.
 
-Dependiendo del formato del libro, cada página puede contener hasta Z caracteres. Sin embargo, la editorial exige que cada página incluya el título del libro de largo Y , además del número de página actual y la cantidad de páginas del libro separados por el carácter ’/’. Para escribir el número de página actual se usa la misma cantidad de espacios que el número de paginas, anteponiendo los ’0’ que sean necesarios. Por ejemplo, la página “uno de diez” se escribe 01/10, ocupando cinco caracteres.
+El número sumado de b's y d's es par.
 
-Arturo sabe que su libro tiene X caracteres. Ayuda a Arturo a determinar la mínima cantidad de páginas que tendría su libro, dependiendo del formato que escoja.
-La primera línea de la entrada contiene tres enteros X, Y y Z, donde X (1 ≤ X ≤ 10^5) es el número de caracteres en el libro, Y (0 ≤ Y ≤ 10^2) es el largo del título, y Z (0 ≤ Z ≤ 10^5) es el número de caracteres que se puede escribir en una página. La entrada está construida de manera que siempre es posible generar un libro.
+Por ejemplo, las cadenas de caracteres 'abcd' y 'aacc' están equilibradas, pero 'abc' y 'bcd' no lo están.
 
-Como salida se espera un valor entero que representa el mínimo número de páginas que puede tener el libro.
+Tu tarea consiste en ayudar a Julia a determinar si dos cadenas de caracteres están equilibradas o no.
+ 
+Formato de entrada 
 
-Entrada de Ejemplo: 456 639 718
+La entrada consiste en una sola línea con la cadena de caracteres a analizar.
 
-Salida de ejemplo: 6
+Restricciones
 
-Entrada
+Cada carácter s[i] ∈ {abcd}.
+
+Se le proporciona un archivo con la entrada [https://www.dropbox.com/s/e25p5zi1twsdvse/Copia%20de%20input029.txt?dl=0](/2018/_docs/France/Copia%20de%20input029.txt)
+ 
+Sample Case 0
+
+Sample Input 0
 
 ```
-171024 12825 14359
+acdbddbbbbaaac
+```
+
+Sample Output 0
+
+```
+true
 ```
 
 ## Solución
 
-```c#
-static void Main(string[] args)
-{
-    string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Documents\Visual Studio 2015\Projects\mercadolibre\inputFrance.txt");
-    int totalLines = int.Parse(lines[0]);
-
-
-    for (int i = 1; i <= totalLines; i++)  
-    {
-        int result = 0;
-        string line = lines[i];
-        string sufijo = string.Copy(line);
-        result += line.Length;
-
-        for (int j = 0; j < line.Length; j++)
-        {
-            sufijo = sufijo.Substring(1);
-            string auxSufijo = string.Copy(sufijo);
-            string auxLine = string.Copy(line);
-
-            bool next = true;
-
-            while (!string.IsNullOrEmpty(auxSufijo) && !string.IsNullOrEmpty(auxLine) && next)
-            {
-                if (auxSufijo[0] == auxLine[0])
-                {
-                    auxLine = auxLine.Substring(1);
-                    auxSufijo = auxSufijo.Substring(1);
-                    result += 1;
-                }
-                else
-                    next = false;
-            }
-        }
-        Console.WriteLine(result);
-    }
-
-    Console.WriteLine("final");
-    Console.Read();
-}
 ```
-
-<small>[Código fuente completo](Program.cs)</small>
+true
+```
