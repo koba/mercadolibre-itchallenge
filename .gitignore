@@ -1,5 +1,7 @@
 # Archivos
+*.class
 *.exe
+*.log
 *.out
 .vagrant
 
