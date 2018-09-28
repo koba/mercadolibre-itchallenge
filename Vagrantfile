@@ -73,6 +73,8 @@ Vagrant.configure("2") do |config|
     echo "deb https://download.mono-project.com/repo/ubuntu stable-xenial main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
     sudo apt-get update
     sudo apt-get install -y mono-devel
+    # java
+    sudo apt-get install -y default-jdk
     # node
     curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
     sudo apt-get install -y nodejs
