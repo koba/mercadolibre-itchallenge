@@ -1,4 +1,4 @@
-# MercadoLibre ItChallenge 2018
+# MercadoLibre ITChallenge 2018
 
 ![](_docs/dashboard.png)
 
@@ -16,7 +16,7 @@
 | [🇩🇪 Germany](Germany)               | Cuadrado no tan mágico                        | 150    | 
 | [🇬🇾 Guyana](Guyana)                 | Ximena, Oscar y Raúl                          | 250    | ✅
 | [🇮🇳 India](India)                   | Substring Calculator                          | 150    | ✅
-| [🇮🇷 Iran](Iran)                     | Gotta Catch 'Em All!                          | 500    | 
+| [🇮🇷 Iran](Iran)                     | Gotta Catch 'Em All!                          | 500    | ✔️
 | [🇮🇹 Italy](Italy)                   | The Perfect Team                              | 50     | ✅
 | [🇯🇵 Japan](Japan)                   | Moraleja: no implementar tu propia hash table | 300    | 
 | [🇰🇿 Kazakhstan](Kazakhstan)         | Giant Roulette                                | 300    | ✅
