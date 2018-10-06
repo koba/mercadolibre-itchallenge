@@ -43,3 +43,14 @@ s contiene caracteres en el rango ascii[a-z].
 0 ≤ |s| ≤ 10^5
 
 ## Solución
+
+Version ligeramente modificada de https://www.geeksforgeeks.org/count-distinct-substrings-string-using-suffix-array.
+
+[Código fuente completo](main.cpp)
+
+## 👨‍💻👩‍💻 Output
+
+```
+$ g++ main.cpp -o main.out && ./main.out
+4999757462
+```
