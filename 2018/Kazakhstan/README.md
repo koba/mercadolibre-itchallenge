@@ -88,7 +88,7 @@ private static int ObtenerPosicion(string line)
 
 <small>[Código fuente completo](Program.cs)</small>
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```bash
 $ csc Program.cs && mono Program.exe

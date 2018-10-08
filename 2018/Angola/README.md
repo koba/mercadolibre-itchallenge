@@ -108,7 +108,7 @@ private static long[][] solve(int height, int width) {
 }
 ```
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```
 $ javac Angola.java && java Angola

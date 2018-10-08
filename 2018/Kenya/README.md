@@ -44,6 +44,8 @@ stoness.forEach((stone, i) => {
 console.log(stoness.length * stoness.length);
 ```
 
+## 👨‍💻👩‍💻 Console
+
 ```
 $ node index.js
 16

@@ -48,7 +48,7 @@ Version ligeramente modificada de https://www.geeksforgeeks.org/count-distinct-s
 
 [Código fuente completo](main.cpp)
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```
 $ g++ main.cpp -o main.out && ./main.out

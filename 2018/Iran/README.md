@@ -72,7 +72,7 @@ En una cueva oscura de la ciudad de Pueblo Paleta fue hallada una escritura muy 
 
     <small>[Código fuente completo](main.py)</small>
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```
 $ node index.js

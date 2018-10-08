@@ -138,7 +138,7 @@ console.log(sha.sha256(output.join('\n')+'\n').toUpperCase());
 
 <small>[Código fuente completo](index.js)</small>
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```
 $ node index.js

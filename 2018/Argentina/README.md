@@ -65,7 +65,7 @@ int main() {
 
 <small>[Código fuente completo](main.cpp)</small>
 
-## 👨‍💻👩‍💻 Output
+## 👨‍💻👩‍💻 Console
 
 ```bash
 $ g++ main.cpp -o main.out && ./main.out
